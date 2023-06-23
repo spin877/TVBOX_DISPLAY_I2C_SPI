@@ -74,19 +74,19 @@ class TM1628Display:
         self.tm1628_display_digit(LCD_POS[4], self.led_info)
 
     def tm1628_set_time(self):
-        ora_corrente = time.strftime("%H:%M")
-        ora = int(ora_corrente[:2])
-        minuti = int(ora_corrente[3:5])
+        hour_now = time.strftime("%H:%M")
+        hour = int(hour_now[:2])
+        minutes = int(hour_now[3:5])
 
-        ora_0 = ora // 10
-        ora_1 = ora % 10
-        minuti_0 = minuti // 10
-        minuti_1 = minuti % 10
+        hour_0 = hour // 10
+        hour_1 = hour % 10
+        minutes_0 = minutes // 10
+        minutes_1 = minutes % 10
 
-        self.tm1628_display_digit(LCD_POS[0], array_cifre[ora_0])
-        self.tm1628_display_digit(LCD_POS[1], array_cifre[ora_1])
-        self.tm1628_display_digit(LCD_POS[2], array_cifre[minuti_0])
-        self.tm1628_display_digit(LCD_POS[3], array_cifre[minuti_1])
+        self.tm1628_display_digit(LCD_POS[0], array_cifre[hour_0])
+        self.tm1628_display_digit(LCD_POS[1], array_cifre[hour_1])
+        self.tm1628_display_digit(LCD_POS[2], array_cifre[minutes_0])
+        self.tm1628_display_digit(LCD_POS[3], array_cifre[minutes_1])
         self.tm1628_display_digit(LCD_POS[4], self.led_info)
         self.tm1628_set_led_dot(1)
         time.sleep(1)

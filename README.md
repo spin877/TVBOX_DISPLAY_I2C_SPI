@@ -38,7 +38,9 @@ Follow these steps to get started with controlling TM1650 and TM1628 displays:
 
 3. Determine the GPIO pins used for the SPI bus on your board by running the command `cat /sys/kernel/debug/gpio` on your Android device.
 
-4. Enable the necessary GPIO pins for the SPI bus using the provided commands. This will allow communication with the TM1628 display.
+4. install i2c-tools sudo apt install i2c-tools. scan i2c-bus,  sudo i2cdetect -y x 0..?
+
+5. Enable the necessary GPIO pins for the SPI bus using the provided commands. This will allow communication with the TM1628 display.
 
 ## Contributing
 

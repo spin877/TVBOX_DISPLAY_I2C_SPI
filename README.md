@@ -52,8 +52,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
-- [TM1650 datasheet](https://example.com/tm1650-datasheet)
-- [TM1628 datasheet](https://example.com/tm1628-datasheet)
+- [TM1650 datasheet](http://www.datasheetcafe.com/tm1650-datasheet-led-controller/)
+- [TM1628 datasheet](https://datasheetspdf.com/datasheet/TM1628.html)
 
 ## Contact
 

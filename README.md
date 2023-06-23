@@ -1,7 +1,7 @@
 # TVBOX_DISPLAY_I2C_SPI
 LCD i2c spi in userspace
 
-# Display LED Control with TM1650 and TM1628 or clone Aip1628 HT1628
+# Display LED Control with TM1650 and TM1628 or clone HT1650 AiP1628 
 
 This repository contains code for controlling LED displays using the TM1650 chip on the I2C bus and the TM1628 chip on the SPI bus. Before using these displays, it is necessary to enable the I2C bus with Armbian-Configure. Additionally, you need to determine the GPIO pins used for the SPI bus by running the command `cat /sys/kernel/debug/gpio` on your Android device. In this specific case, the GPIO pins were enabled as follows:
 

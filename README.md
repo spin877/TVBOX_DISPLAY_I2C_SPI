@@ -1,5 +1,5 @@
 # TVBOX_DISPLAY_I2C_SPI
-LED 7 segment i2c spi in userspace
+LED 7 segment i2c spi in userspace installed rk3318 X88 Pro 10 and Bqeel S1, CPU Amlogic S905X4 
 
 # Display LED Control with TM1650 and TM1628 or clone HT1650 AiP1628 
 

@@ -1,5 +1,5 @@
 # TVBOX_DISPLAY_I2C_SPI
-LCD i2c spi in userspace
+LED 7 segment i2c spi in userspace
 
 # Display LED Control with TM1650 and TM1628 or clone HT1650 AiP1628 
 

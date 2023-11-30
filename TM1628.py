@@ -142,3 +142,6 @@ if __name__ == '__main__':
         display.tm1628_set_led_wifi(1)
         display.tm1628_set_led_lan(1)
         tm1628_displays.append(display)
+
+    update_thread = threading.Thread(target=write_to_displays, args=(tm1628_displays[0],))
+    update_thread.start()
